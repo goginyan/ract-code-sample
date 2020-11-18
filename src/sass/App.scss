@@ -1,0 +1,80 @@
+@import "variables";
+@import "custom-classes";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#root {
+  height: 100vh;
+  max-height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  max-height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  max-height: fill-available;
+}
+
+.z-1{
+  z-index: 1;
+}
+
+
+.bg-none{
+  background: none;
+  border: none;
+}
+
+
+.basket{
+  color: $blue;
+  padding: 10px 15px;
+  outline: none!important;
+  border-bottom: 3px solid $blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span{
+    line-height: 0;
+  }
+  svg{
+    fill:$blue;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+
+
+.plug-items{
+  .slick-slide.slick-center{
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  .slick-slide{
+    transition: .5s!important;
+    opacity: 0.5;
+  }
+}
+
+
+#stage{
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+/// svg icons
+.svg-icon{
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+// border
+.border-bottom {
+  border-bottom: 2px solid $blue !important;
+}

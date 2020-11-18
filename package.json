@@ -1,0 +1,37 @@
+{
+  "name": "guns",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "konva": "^3.4.1",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-div-100vh": "^0.5.0",
+    "react-dom": "^16.8.4",
+    "react-konva": "^16.13.0-3",
+    "react-redux": "^7.2.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.1",
+    "react-select": "^3.1.0",
+    "redux": "^4.0.5",
+    "shopify-buy": "^2.11.0",
+    "swiper": "^6.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

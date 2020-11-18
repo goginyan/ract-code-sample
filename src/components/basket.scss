@@ -1,0 +1,7 @@
+//@import "./src/sass/variables";
+
+.basket-price{
+  @media (max-width: 586px) {
+    display: none;
+  }
+}

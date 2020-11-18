@@ -1,0 +1,31 @@
+@import './src/sass/variables';
+
+.category {
+  margin: 0 !important;
+  height: calc(100vh - #{$navbar-height});
+
+  .sidebar {
+    position: relative;
+    right: 1px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    .sidebar-item {
+      position: relative;
+      left: 1px;
+      cursor: pointer;
+      color: $gray;
+      font-weight: bold;
+      font-size: 20px;
+
+      &.active-sidebar-item {
+        color: $blue;
+      }
+
+      &:hover {
+        color: $black;
+        background: $white;
+      }
+    }
+  }
+}
